@@ -1,0 +1,14 @@
+{
+  "name": "easydoc-openapi-v3",
+  "version": "0.0.1",
+  "author": "potitoaghilar <aghilarn@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "prepare-docs": "bash -l -c 'SWAGGER_ENDPOINT=<swagger-json-endpoint> ./prepare-docs.sh'"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.36"
+  }
+}
