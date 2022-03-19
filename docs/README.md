@@ -2,6 +2,13 @@
 
 > This will be populated by `prepare-docs` script
 
+## Global dependency
+
+Install `widdershins` npm package globally in WSL:
+``` bash
+$ npm i -g widdershins
+```
+
 ## Workflow
 
 ## Change swagger.json endpoint
