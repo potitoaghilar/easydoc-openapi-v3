@@ -9,4 +9,16 @@ export default defineUserConfig<DefaultThemeOptions>({
     themeConfig: {
         logo: 'https://seeklogo.com/images/W/world-bank-logo-50FE63E4E3-seeklogo.com.png',
     },
+    plugins: [
+        [
+            "@vuepress/search",
+            {
+                locales: {
+                    '/': {
+                        placeholder: 'Search in documentation',
+                    },
+                },
+            },
+        ]
+    ]
 })

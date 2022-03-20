@@ -8,6 +8,9 @@
     "docs:build": "vuepress build docs",
     "prepare-docs": "bash -l -c 'SWAGGER_ENDPOINT=<swagger-json-endpoint> ./prepare-docs.sh'"
   },
+  "dependencies": {
+    "@vuepress/plugin-search": "^2.0.0-beta.36"
+  },
   "devDependencies": {
     "vuepress": "^2.0.0-beta.36"
   }
